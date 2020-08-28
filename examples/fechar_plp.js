@@ -24,9 +24,10 @@ const faxRemetente = ''
 const emailRemetente = 'teste@email.com'
 
 // Pre-Requisito:
-// Preparar Etiquetas com Dígito Verificador Previamente (vide exemplo gerar_digito)
-const etiquetas = ['SO00064196BR', 'SL99922179BR']
-let validEtiquetas = ['SO000641962BR', 'SL999221795BR']
+// SEM DIGITO VERIFICADOR
+const etiquetas = ['PP88718405BR', 'PP88718407BR']
+// COM DIGITO VERIFICADOR
+let validEtiquetas = ['PP887184050BR', 'PP887184077BR']
 
 // Lista de Destinatários
 const listaObjetosPostais = [
